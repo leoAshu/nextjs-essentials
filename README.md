@@ -70,7 +70,7 @@ This is a relatively obsolete approach to implement routing using the `Pages Rou
 In newer versions of Next.js, `App Router` has been introduced which requires each route to be defined as a folder with a `page.tsx` file inside the `app` folder.
 
 > Note:
->
+> - Any folder inside `app` folder is not publicly accessible unless a `page.tsx` file is placed inside it.
 > - Pages router does not support server components
 > - All components under the app folder are server components by default
 
