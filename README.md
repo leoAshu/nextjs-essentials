@@ -37,7 +37,7 @@ This is a sample project structure taken from the tutorial at [Learn Next.js: Ge
 - `/app/lib`: Contains functions used in the application, such as reusable utility functions and data fetching functions.
 - `/app/ui`: Contains all the UI components for the application, such as cards, tables, and forms.
 - `/public`: Contains all the static assets for the application, such as images.
-- `/scripts`: Contains utility scripts, for example a seeding script to populate the database in a later chapter.
+- `/scripts`: Contains utility scripts, for example a seeding script to populate the database.
 
 
 ## Routing in Next.js
