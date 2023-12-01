@@ -44,6 +44,15 @@ Next.js offers several advantages, including:
 </p>
 <br>
 
+<br>
+<p align="center">
+    <image src="./images/rendering.png">
+</p>
+<p align="center">
+    <b>Types of Rendering in Next.js</b>
+</p>
+<br>
+
 
 ## Getting Started
 
