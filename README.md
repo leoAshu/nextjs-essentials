@@ -59,3 +59,16 @@ Server-side rendering involves rendering pages on the server rather than the cli
 ### Pages with `getServerSideProps`
 
 The `getServerSideProps` function allows fetching data on each request, enabling dynamic content for SSR pages.
+
+
+## Static Site Generation (SSG)
+
+Static site generation generates HTML pages at build time, resulting in faster page loads.
+
+### Pages with `getStaticProps`
+
+Using `getStaticProps`, Next.js can pre-render pages at build time, fetching data to be injected into the page.
+
+### Incremental Static Regeneration (ISR)
+
+ISR allows regeneration of static pages on-demand, enhancing flexibility in content updates.
