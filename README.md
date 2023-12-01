@@ -29,6 +29,8 @@ cd my-nextjs-ap
 
 ### Project Structure
 
+This is a sample project structure taken from the tutorial at [Learn Next.js: Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
+
 <img src='./images/folder-structure.png'>
 
 - `/app`: Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
