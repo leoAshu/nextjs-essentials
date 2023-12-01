@@ -35,6 +35,15 @@ Next.js offers several advantages, including:
 >   - Maintain state
 >   - Use effects
 
+<br>
+<p align="center">
+    <image src="./images/csr-vs-ssr.png">
+</p>
+<p align="center">
+    <b>Client-side vs Server-side Components</b>
+</p>
+<br>
+
 
 ## Getting Started
 
