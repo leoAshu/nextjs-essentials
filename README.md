@@ -26,13 +26,14 @@ Next.js offers several advantages, including:
 |         No SEO          |           SEO           |
 |       Less secure       |        More secure      |
 
-> Note: Disadvantages of Server-side rendering over Client-side rendering
+> Note:
 >
-> Server components cannot
-> - Listen to browser events like click, change, etc
-> - Access browser APIs
-> - Maintain state
-> - Use effects
+> - All components under `app` folder are server components by default.
+> - Server components cannot
+>   - Listen to browser events like click, change, etc
+>   - Access browser APIs
+>   - Maintain state
+>   - Use effects
 
 
 ## Getting Started
