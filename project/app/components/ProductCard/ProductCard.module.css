@@ -1,0 +1,5 @@
+/* Always use camel case in module.css files: cardContaner instedad of card-container */
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
