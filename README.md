@@ -5,6 +5,7 @@
 ## Introduction
 
 Next.js is a React framework for building server-rendered React applications with ease. It simplifies the process of setting up and deploying React applications by providing a range of features out of the box.
+In short, Next.js is a framework for building fast and search engine friendly web sites.
 
 ### Why Next.js?
 
