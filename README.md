@@ -17,6 +17,16 @@ Next.js offers several advantages, including:
 - **Built-in CSS Support:** Support for various styling approaches.
 
 
+### Client-side vs Server-side Rendering
+
+|  Client-side Rendering  |  Server-side Rendering  |
+|-------------------------|-------------------------|
+|      Large bundles      |     Smaller bundles     |
+|   Resource intensive    |    Resource efficient   |
+|         No SEO          |           SEO           |
+|       Less secure       |        More secure      |
+
+
 ## Getting Started
 
 ### Setting up a Next.js Project
