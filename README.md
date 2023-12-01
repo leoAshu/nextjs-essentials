@@ -44,16 +44,6 @@ Next.js offers several advantages, including:
 </p>
 <br>
 
-<br>
-<p align="center">
-    <image src="./images/rendering.png">
-</p>
-<p align="center">
-    <b>Static and Dynamic Rendering in Next.js</b>
-</p>
-<br>
-
-
 ## Getting Started
 
 ### Setting up a Next.js Project
@@ -121,6 +111,14 @@ Using `getStaticProps`, Next.js can pre-render pages at build time, fetching dat
 
 ISR allows regeneration of static pages on-demand, enhancing flexibility in content updates.
 
+<br>
+<p align="center">
+    <image src="./images/rendering.png">
+</p>
+<p align="center">
+    <b>Static and Dynamic Rendering in Next.js</b>
+</p>
+<br>
 
 ## Data Fetching
 
