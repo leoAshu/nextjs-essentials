@@ -72,3 +72,25 @@ Using `getStaticProps`, Next.js can pre-render pages at build time, fetching dat
 ### Incremental Static Regeneration (ISR)
 
 ISR allows regeneration of static pages on-demand, enhancing flexibility in content updates.
+
+
+## Data Fetching
+
+### Fetching Data on Client side
+
+Use React hooks such as `useState` and `useEffect` to fetch data on the client side.
+
+### SWR (Stale-While-Revalidate)
+
+The SWR library simplifies data fetching with a focus on real-time updates and caching.
+
+
+## API Routes
+
+### Creating API Routes
+
+API routes in the `pages/api` directory allow for the creation of backend APIs within the Next.js project.
+
+### Handling API Requests
+
+Handle HTTP requests within API routes using standard Node.js HTTP request handling.
