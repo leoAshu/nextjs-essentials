@@ -65,6 +65,14 @@ This is a sample project structure taken from the tutorial at [Learn Next.js: Ge
 ### File-based Routing
 
 Next.js uses a file-system-based router. For example, creating a file named `about.js` in the `pages` directory automatically creates the `/about` route.
+This is a relatively obsolete approach to implement routing using the `Pages Router`.
+
+In newer versions of Next.js, `App Router` has been introduced which requires each route to be defined as a folder with a `page.tsx` file inside the `app` folder.
+
+> Note:
+>
+> - Pages router does not support server components
+> - All components under the app folder are server components by default
 
 ### Dynamic Routes
 
