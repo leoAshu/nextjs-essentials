@@ -1,5 +1,6 @@
-# Nextjs Essentials
+<img src='./images/cover.png'>
 
+# Nextjs Essentials
 
 ## Introduction
 
