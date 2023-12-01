@@ -123,6 +123,15 @@ Use React hooks such as `useState` and `useEffect` to fetch data on the client s
 
 The SWR library simplifies data fetching with a focus on real-time updates and caching.
 
+> Note:
+>
+> - Use server components to fetch data.
+> - Fetching in server components has an extra benefit: Caching.
+> - Next.js comes with a built-in data cache.
+>   - Stores response in the cache automatically when using `fetch`.
+>   - Pass `{ cache: 'no-store' }` as options to disable caching.
+>   - Pass `{ next: { revalidate: 10 } }` as options to make Next.js refresh the response in cache after 10ms.
+
 
 ## API Routes
 
