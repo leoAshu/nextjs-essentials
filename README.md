@@ -14,6 +14,7 @@ Next.js offers several advantages, including:
 - **Simplified Routing:** Page-based routing based on the file system structure.
 - **Built-in CSS Support:** Support for various styling approaches.
 
+
 ## Getting Started
 
 ### Setting up a Next.js Project
@@ -35,3 +36,26 @@ cd my-nextjs-ap
 - `/public`: Contains all the static assets for your application, such as images.
 - `/scripts`: Contains a seeding script that you'll use to populate your database in a later chapter.
 - **Config Files**: You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using `create-next-app`. You will not need to modify them in this course.
+
+
+## Routing in Next.js
+
+### File-based Routing
+
+Next.js uses a file-system-based router. For example, creating a file named `about.js` in the `pages` directory automatically creates the `/about` route.
+
+### Dynamic Routes
+
+Dynamic routes allow for the creation of pages with dynamic content. For instance, `[id].js` in the `pages` directory corresponds to `/posts/[id]`.
+
+### Linking Between Pages
+
+The `Link` component in Next.js enables client-side navigation between pages reducing the need for full-page reloads.
+
+## Server-Side Rendering (SSR)
+
+Server-side rendering involves rendering pages on the server rather than the client. This improves performance and SEO.
+
+### Pages with `getServerSideProps`
+
+The `getServerSideProps` function allows fetching data on each request, enabling dynamic content for SSR pages.
